@@ -1,0 +1,16 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Keep the production model available to the backend
+!backend/models/
+!backend/models/*.keras
+
+
+# Operating system
+.DS_Store
